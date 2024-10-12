@@ -1,0 +1,7 @@
+Navbar
+Main
+    Sections:
+    -Home/About
+    -Stacks/Tech
+    -Projects
+    -Contact
