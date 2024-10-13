@@ -1,3 +1,41 @@
 body {
     max-width: 100%;
 }
+.navbar{
+    display: flex;
+    width: 100%;
+    min-height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-links{
+    border: 2px solid red;
+    background-color: #181C14;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.navigation-links {
+    font-size: 2vw;
+}
+.navbar-links a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.navbar-links a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+.navbar-links a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+.navbar-links a:visited {
+    color: #697565;
+    background-color: transparent;
+    text-decoration: none;
+}
