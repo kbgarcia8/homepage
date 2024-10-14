@@ -5,3 +5,5 @@ Main
     -Stacks/Tech
     -Projects
     -Contact
+Aux:
+    -Implement smooth transition/scrolling when going to anchor links
