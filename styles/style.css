@@ -118,8 +118,8 @@ body {
     border: 2px solid red;
 }
 .home-article{
-    flex: 1;
-    background-color: #CCFFBD;
+    flex: 1 1 300px;
+    color: #CCFFBD;
     padding: 5vw;
     max-width: 70vw;
 }
