@@ -38,15 +38,6 @@ body {
     font-weight: bolder;
     font-style: italic;
     font-size: 2vw;
-    justify-content: space-around;
-    width: 40%;
-}
-.text-logo{
-    text-align: center;
-    color: #7ECA9C;
-    font-weight: bolder;
-    font-style: italic;
-    font-size: 2vw;
 }
 .navigation-links {
     position: relative;
