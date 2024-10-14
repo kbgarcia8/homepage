@@ -134,6 +134,7 @@ body {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    border: 2px solid red;
 }
 .profile-pic{
     max-width: 50%;
@@ -141,7 +142,7 @@ body {
 }
 .home-article{
     flex: 2 1 300px;
-    color: #CCFFBD;
+    background-color: #CCFFBD;
     padding: 5vw;
     max-width: 70vw;
 }
