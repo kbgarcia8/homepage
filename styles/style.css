@@ -65,7 +65,6 @@ body {
     background-color: transparent;
     text-decoration: none;
 }
-.navigation-links:visited {
 .navigation-links:link {
     color: white;
     background-color: transparent;
@@ -82,8 +81,6 @@ body {
     text-decoration: none;
     transition: 0.4s all ease;
 }
-.navigation-links:active {
-    color: orange;
 .navigation-links:hover {
     color: 	#CCFFBD;
     background-color: transparent;
@@ -97,13 +94,9 @@ body {
 }
 .navigation-links:focus {
     color: #1E5128;
-.navigation-links:focus {
-    color: #1E5128;
     background-color: transparent;
     text-decoration: none;
 }
-.visited {
-    color: #7ECA9C !important;
 .visited {
     color: #7ECA9C !important;
     background-color: transparent;
