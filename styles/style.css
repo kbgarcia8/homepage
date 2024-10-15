@@ -9,26 +9,19 @@ body {
 .navbar{
     display: flex;
     width: 100%;
-    height: 7.5vh;
-    align-items: center;
-    height: 7.5vh;
+    min-height: 7.5vh;
     align-items: center;
     justify-content: center;
     background-color: #181C14;
 }
 .nav-logo{
-    position: relative;
-    right: 20%;
-}
-.nav-logo{
-    position: relative;
-    right: 20%;
+    margin-right: 12.5vw;
 }
 .navbar-menu{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 40%;
+    width: 50%;
 }
 .text-logo{
     text-align: center;
@@ -38,11 +31,6 @@ body {
     font-size: 2vw;
 }
 .navigation-links {
-    position: relative;
-    text-decoration: none;
-    font-size: 1.5vw;
-    font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: relative;
     text-decoration: none;
     font-size: 1.5vw;
@@ -151,6 +139,7 @@ body {
     font-size: 70%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 900;
+    text-decoration: underline;
 }
 p{
     font-size: 60%;
@@ -158,20 +147,71 @@ p{
 #tech{
     min-height: 100vh;
     background-color: #868d86;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
 }
-.tech-profile{
-    border: 2px solid red;
-    min-height: 100vh;
-    padding: 5vw;
+.tech-header{
+    text-align: center;
+    color: #1E5128;
+    font-size: 3vw;
+    font-family: Abolition;
+}
+.tech-stack{
+    background: #ffffffee;
+    backdrop-filter: blur(10px);
+    min-height: 70vh;
+    max-width: 50vw;
     display: grid;
-    grid-template-columns: repeat(3, minmax(30vw,33%));
-    grid-template-rows: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    align-items: center;
+    padding: 1vw;
+    gap: 0.5vw;
+    transform: translate(50%, 0%);
+    -webkit-box-shadow: 15px 10px 23px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 15px 10px 23px 0px rgba(0,0,0,1);
+    box-shadow: 15px 10px 23px 0px rgba(0,0,0,1);
+    margin-block: 2vh;
 }
 .stack{
-    background-color: #7ECA9C;
-    height: 100%;
-    width: 100%;
+    background-color: transparent;
+    max-width: 75%;  
+    height: auto;
+    object-fit: fill;
+}
+#projects{
+    min-height: 100vh;
+    background-color: #b4c0b4;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+.projects-header{
+    text-align: center;
+    color: #1E5128;
+    font-size: 3vw;
+    font-family: Abolition;
+}
+.projects-card-space{
+    background: transparent;
+    backdrop-filter: blur(10px);
     border: 2px solid red;
+    min-height: 70vh;
+    max-width: 50vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    align-items: center;
+    padding: 1vw;
+    gap: 0.5vw;
+    transform: translate(50%, 0%);
+}
+.projects-card{
+    background-color: #000000;
+    max-width: 75%;  
+    height: auto;
+    object-fit: fill;
 }
 /* Phones */
 @media (max-width: 767px) {
