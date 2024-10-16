@@ -194,12 +194,10 @@ p{
     color: #1E5128;
     font-size: 3vw;
     font-family: Abolition;
-    border: 2px solid red;
 }
 .projects-card-space{
     background: transparent;
     backdrop-filter: blur(10px);
-    border: 2px solid red;
     min-height: 70vh;
     max-width: 70vw;
     display: grid;
@@ -230,7 +228,6 @@ p{
     justify-content: center;
     padding: 5%;
     height: fill;
-    border: 2px solid red;
 }
 .project-title{
     color: #FFFF;
@@ -242,7 +239,6 @@ p{
 .project-details{
     color: #FFFF;
     font-size: 1vw;
-    border: 2px solid red;
 }
 .project-links{
     display: flex;
@@ -262,6 +258,12 @@ p{
     flex-direction: column;
     align-items: center;
     padding: 1vw;
+}
+.contact-header{
+    text-align: center;
+    color: #0d2211;
+    font-size: 3vw;
+    font-family: Abolition;
 }
 /* Phones */
 @media (max-width: 767px) {
