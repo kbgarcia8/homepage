@@ -198,20 +198,45 @@ p{
     backdrop-filter: blur(10px);
     border: 2px solid red;
     min-height: 70vh;
-    max-width: 50vw;
+    max-width: 70vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-items: center;
     align-items: center;
     padding: 1vw;
     gap: 0.5vw;
-    transform: translate(50%, 0%);
+    transform: translate(25%, 0%);
 }
 .projects-card{
     background-color: #000000;
-    max-width: 75%;  
+    max-width: 100%;  
     height: auto;
     object-fit: fill;
+}
+.project-screenshot{
+    background-color: white;
+    padding: 0.25vw;
+}
+.project-description-space{
+    display: flex;
+    flex-direction: column;
+}
+.project-title{
+    color: #FFFF;
+}
+.project-details{
+    color: #FFFF;
+    white-space: pre;
+}
+.project-links{
+    border: 2px solid red ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.project-link-btn{
+    background-color: #000000;
+    border: none;
 }
 /* Phones */
 @media (max-width: 767px) {
