@@ -197,7 +197,6 @@ p{
 }
 .projects-card-space{
     background: transparent;
-    backdrop-filter: blur(10px);
     min-height: 70vh;
     max-width: 70vw;
     display: grid;
@@ -264,6 +263,95 @@ p{
     color: #0d2211;
     font-size: 3vw;
     font-family: Abolition;
+}
+.contact-space{
+    background: transparent;
+    min-height: 70vh;
+    max-width: 80vw;
+    padding: 0.5vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    align-items: center;
+    border: 2px solid red;
+}
+.main-contact{
+    height: 100%;
+    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid red;
+}
+.main-contact-info{
+    display: flex;
+}
+.main-contact-info span,
+.main-contact-info div>span{
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    font-size: 1.25vw;
+}
+.main-contact-info-headers{
+    font-weight: 900;
+}
+.main-contact-info#description span{
+    font-size: 1.5vw;
+}
+.main-contact-info img{
+    margin-right: 1.5vw;
+    width: 10%;
+}
+.contact-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-links button{
+    width: 10%;
+    background-color: transparent;
+    border: none;
+}
+.contact-links img{
+    width: 100%;
+}
+.divider{
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+}
+.divider1,
+.divider2{
+    border: 5px solid #1E5128;
+    height: 40%;
+}
+.divider-or{
+    border: 2px solid blue;
+    height: 20%;
+}
+.divider-or span{
+    text-align: center;
+    color: #1E5128;
+    font-size: 5vw;
+    font-family: Abolition;
+}
+.send-email{
+    height: 100%;
+    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid red;
+}
+.send-email-description span{
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    font-size: 1.25vw;
 }
 /* Phones */
 @media (max-width: 767px) {
