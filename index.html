@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Landing Page</title>
+    <title>KB Garcia</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
   </head>
@@ -29,6 +29,18 @@
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
+          <div class="contact-links">
+            <button>
+              <a href="#">
+                <img src="./assets/linkedin-svgrepo-com.svg" alt="linkedin-logo">
+              </a>
+            </button>
+            <button>
+              <a href="#">
+                <img src="./assets/github2.svg" alt="github-logo">
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -162,6 +174,86 @@
     </section>
     <section id="contact">
       <div class="contact-header">Contact Me</div>
+      <div class="contact-space">
+        <div class="main-contact">
+          <div class="main-contact-info" id="description">
+            <span>
+              Lets get started on building those projects together.
+              Please find my contact details below
+            </span>
+          </div>
+          <div class="main-contact-info" id="address">
+            <img src="./assets/address-book.svg" alt="address-icon">
+            <div>
+              <span class="main-contact-info-headers">Address:</span>
+              <span>XXXX C This St Stn Cuoz, Malina</span>
+            </div>
+          </div>
+          <div class="main-contact-info" id="phone">
+            <img src="./assets/phone.svg" alt="phone-icon">
+            <div>
+              <span class="main-contact-info-headers">Phone No.</span>
+              <span>+(639)00-000-0000</span>
+            </div>
+          </div>
+          <div class="main-contact-info" id="email">
+            <img src="./assets/email-down.svg" alt="email-icon">
+            <div>
+              <span class="main-contact-info-headers"> Email:</span>
+              <span>thisismyemail@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact-links">
+            <button>
+              <a href="#">
+                <img src="./assets/facebook.svg" alt="facebook-logo">
+              </a>
+            </button>
+            <button>
+              <a href="#">
+                <img src="./assets/instagram.svg" alt="instagram-logo">
+              </a>
+          </button>
+            <button>
+              <a href="#">
+                <img src="./assets/linkedin-svgrepo-com.svg" alt="linkedin-logo">
+              </a>
+            </button>
+            <button>
+              <a href="#">
+                <img src="./assets/github2.svg" alt="github-logo">
+              </a>
+            </button>
+          </div>
+        </div>
+        <div class="divider">
+          <div class="divider1"></div>
+          <div class="divider-or">
+            <span>OR</span>
+          </div>
+          <div class="divider2"></div>
+        </div>
+        <div class="send-email">
+          <div class="send-email-description">
+            <span>
+              Have the details sent to me directly by providing the details below
+            </span>
+          </div>
+          <div class="send-details-form">
+            <form id="details">
+              <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>          
+              <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>          
+              <label for="project-title">Project Title</label>
+                <input type="text" id="project-title" name="project_title" placeholder="Title of your project..." required>
+              <label for="description">Project Description</label>
+                <textarea id="description" name="description" placeholder="Describe your project (Optional)"></textarea>
+              <button class="submit-details" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
   <script src="./index.js"></script>
   </body>
