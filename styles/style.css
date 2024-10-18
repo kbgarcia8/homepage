@@ -3,13 +3,16 @@
     font-family: Abolition; 
     src: url('../fonts/Abolition.ttf') format('truetype'); 
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     max-width: 100%;
 }
 .navbar{
     display: flex;
     width: 100%;
-    min-height: 7.5vh;
+    min-height: 5vh;
     align-items: center;
     justify-content: center;
     background-color: #181C14;
@@ -113,6 +116,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 5%;
 }
 .profile {
     display: flex;
@@ -134,16 +138,32 @@ body {
 .profile-name{
     font-family: Abolition;
     text-align: center;
-    /*font-size: 7.5vw;*/
+    font-size: 3.5vw;
 }
-.title{
-    font-size: 70%;
+.profile-title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 900;
     text-decoration: underline;
+    font-size: 1.5vw;
+    margin-bottom: 10%;
 }
-p{
-    font-size: 60%;
+.profile-about-me{
+    font-size: 1.125vw;
+    margin-bottom: 10%;
+}
+.profile-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile-links button{
+    width: 7.5%;
+    background-color: transparent;
+    border: none;
+}
+.profile-links img{
+    width: 100%;
+    fill: #CCFFBD;
 }
 #tech{
     min-height: 100vh;
@@ -291,7 +311,7 @@ p{
     align-items: center;
     font-size: 1.25vw;
 }
-.main-contact-info-headers{
+.main-contact-info-title{
     font-weight: 900;
 }
 .main-contact-info#description span{
@@ -306,6 +326,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    transform: translateY(50%);
 }
 .contact-links button{
     width: 10%;
@@ -333,7 +354,7 @@ p{
 .divider-or span{
     text-align: center;
     color: #0d2211;
-    font-size: 7.5vw;
+    font-size: 5vw;
     font-family: Abolition;
 }
 .send-email{
@@ -349,8 +370,8 @@ p{
     align-items: center;
     font-size: 1.5vw;
     font-weight: 700;
+    margin-bottom: 5%;
 }
-
 form#details {
     max-width: 100%;
     margin: 0 auto;
@@ -368,8 +389,8 @@ textarea {
     padding: 2.5%;
     margin-block: 2.5%;
     border: none;
+    border-bottom: 5px solid transparent;
     background-color: transparent;
-    border-bottom: 2px solid #000000;
     font-size: 1vw;
 }
 textarea {
@@ -378,7 +399,8 @@ textarea {
 }
 input:focus, 
 textarea:focus {
-    border: 2px solid #0d2211;
+    outline: none;
+    border-bottom: 5px solid #0d2211;
 }
 .submit-details{
     width: 30%;
@@ -391,24 +413,4 @@ textarea:focus {
 .submit-details:hover {
     background-color: #CCFFBD;
     color: #000000;
-}
-/* Phones */
-@media (max-width: 767px) {
-    #home {
-        padding: 15%;
-    }
-}
-  
-/* Tablets */
-@media (min-width: 768px) and (max-width: 1024px) {
-    #home {
-      padding: 5%;
-    }
-}
-  
-/* Desktops */
-@media (min-width: 1025px) {
-    #home {
-      padding: 5%;
-    }
 }

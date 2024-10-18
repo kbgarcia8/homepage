@@ -1,0 +1,116 @@
+/* Phones */
+@media (max-width: 767px) {
+    #home {
+        min-height: 95vh;
+        padding: 15%;
+    }
+    .profile-about-me{
+        font-size: 3vw;
+        margin-bottom: 20%;
+    }
+    .profile-links button{
+        width: 20%;
+    }
+    .tech-header,
+    .projects-header,
+    .contact-header{
+        font-size: 4.5vw;
+    }
+    input,
+    textarea {
+    border-bottom: 2px solid transparent;
+}
+    input:focus, 
+    textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #0d2211;
+}
+    .submit-details{
+        width: 30%;
+        font-size: 2.5vw;
+    }
+}
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #home {
+        padding: 7.5%;
+    }
+    .profile-about-me{
+        font-size: 2.75vw;
+    }
+    .profile-links button{
+        width: 20%;
+    }
+    .tech-header,
+    .projects-header,
+    .contact-header{
+        font-size: 6.5vw;
+    }
+    input,
+    textarea {
+    border-bottom: 3.5px solid transparent;
+    }
+    input:focus, 
+    textarea:focus {
+    outline: none;
+    border-bottom: 3.5px solid #0d2211;
+    }
+    .submit-details{
+        width: 50%;
+        font-size: 2.5vw;
+        margin-top: 75%;
+    }
+}
+/* Phones and Tablets*/
+@media (max-width: 1024px) {
+    .nav-logo{
+        margin-right: 7.5vw;
+    }
+    .text-logo{
+        font-size: 3.5vw;
+    }
+    .navigation-links {
+        font-size: 2vw;        
+    }
+    .profile-name{
+        font-size: 7.5vw;
+    }
+    .profile-title{
+        font-size: 3.25vw;        
+    }
+    .projects-card-space{
+        gap: 2.5vw;
+    }
+    .projects-card{
+        max-width: 30vw;
+        min-height: 35vw; 
+    }
+    .project-title{
+        font-size: 2vw;
+    }
+    .project-details{
+        font-size: 1.25vw;
+    }
+    .project-link-btn{
+        width: 10%;
+    }
+    .main-contact,
+    .send-email{
+        max-width: 50vw;
+    }
+    .main-contact-info span,
+    .main-contact-info div>span,
+    input,
+    textarea{
+        font-size: 2vw;
+    }
+    .main-contact-info#description span,
+    .send-email-description span,
+    label{
+        font-size: 2vw;
+        font-weight: 700;
+    }
+    .contact-links button{
+        width: 15%;
+    }
+}
